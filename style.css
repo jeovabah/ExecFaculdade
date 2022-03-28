@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+div.center {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+    
+}
+nav.menu div.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+nav.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+nav.menu ul li {
+    font-weight: bold;
+    color: black;
+    margin-right: 0.8rem;
+    cursor: pointer;
+}
+section.contentUniversidade .center img {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+section .center h2 {
+    margin-bottom: 1rem;
+}
+section .center h4 {
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+section#quemSomos {
+    height: 100%;
+}
+.center ol {
+    margin-left: 2rem;
+}
+
+section#contact {
+    height: 100%;
+}
+form input[type="submit"] {
+    cursor: pointer;
+    margin-top: 0.5rem;
+    padding: 2.5px;
+}
+footer .center{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
